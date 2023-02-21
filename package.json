@@ -4,9 +4,11 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "npx cross-env NODE_ENV=production",
     "build": "npx cross-env NODE_ENV=production",
-    "start": "yarn ts-node ./server"
+    "start": "ts-node ./server"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
   },
   "repository": {
     "type": "git",
