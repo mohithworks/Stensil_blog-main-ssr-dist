@@ -1,0 +1,21 @@
+{
+  "name": "stensil_blog-main-ssr-dist",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npx cross-env NODE_ENV=production",
+    "build": "npx cross-env NODE_ENV=production",
+    "start": "yarn ts-node ./server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohithworks/Stensil_blog-main-ssr-dist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohithworks/Stensil_blog-main-ssr-dist/issues"
+  },
+  "homepage": "https://github.com/mohithworks/Stensil_blog-main-ssr-dist#readme"
+}
